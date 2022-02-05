@@ -495,22 +495,24 @@ const testObj = {
 const hatValue = testObj.hat; // Change this line
 const shirtValue = testObj.shirt;
 //85
+/*
 const testObj = {
   "an entree": "hamburger",
   "my side": "veggies",
   "the drink": "water",
 };
-
+*/
 // Only change code below this line
 const entreeValue = testObj["an entree"]; // Change this line
 const drinkValue = testObj["the drink"];
 //87
+/*
 const testObj = {
   12: "Namath",
   16: "Montana",
   19: "Unitas",
 };
-
+*/
 // Only change code below this line
 const playerNumber = 16; // Change this line
 const player = testObj[playerNumber];
@@ -648,6 +650,14 @@ for (let i = 1; i < 6; i++) {
 //98
 const myArray = [];
 for (let i = 1; i < 10; i++) {
+  if (i % 2 != 0) {
+    myArray.push(i);
+  }
+}
+console.log(myArray);
+//99
+const myArray = [];
+for (let i = 10; i > 0; i--) {
   if (i % 2 != 0) {
     myArray.push(i);
   }
