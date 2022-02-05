@@ -5,3 +5,4 @@ a
 multiline
 comment
 */
+var myName;
