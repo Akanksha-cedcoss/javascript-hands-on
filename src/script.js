@@ -16,3 +16,6 @@ console.log(quotient);
 let myVar = 87;
 myVar++;
 console.log(myVar);
+let myVar2 = 11;
+myVar2--;
+console.log(myVar2);
