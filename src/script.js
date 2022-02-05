@@ -5,6 +5,7 @@ a
 multiline
 comment
 */
-const myName = "Akanksha";
-const myStr = "My name is "+myName+" dixit";
+const someAdjective = "awesome";
+let myStr = "Learning to code is ";
+myStr += someAdjective;
 console.log(myStr);
