@@ -13,3 +13,6 @@ const product = 8 * 10;
 console.log(product);
 const quotient = 66 / 33;
 console.log(quotient);
+let myVar = 87;
+myVar++;
+console.log(myVar);
