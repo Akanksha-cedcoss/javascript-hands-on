@@ -6,11 +6,11 @@ multiline
 comment
 */
 
-let lastNameLength = 0;
-const lastName = "Lovelace";
+let myStr = "Jello World";
 
-lastNameLength = lastName.length;
-console.log(lastNameLength);
+// Only change code below this line
+myStr = "Hello World";
+console.log(myStr);
 
 let firstLetterOfLastName = "";
 const lastName = "Lovelace";
