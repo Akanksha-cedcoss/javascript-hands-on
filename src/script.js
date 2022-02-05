@@ -640,3 +640,8 @@ while (i >= 0) {
   myArray.push(i);
   i--;
 }
+//97
+const myArray = [];
+for (let i = 1; i < 6; i++) {
+  myArray.push(i);
+}
