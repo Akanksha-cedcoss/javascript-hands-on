@@ -391,7 +391,6 @@ function sequentialSizes(val) {
       answer = "High";
   }
 
-  // Only change code above this line
   return answer;
 }
 
@@ -399,7 +398,7 @@ console.log(sequentialSizes(1));
 //79
 function chainToSwitch(val) {
   let answer = "";
-  // Only change code below this line
+
   switch (val) {
     case "bob":
       return "Marley";
@@ -418,8 +417,13 @@ function chainToSwitch(val) {
       return "";
   }
 
-  // Only change code above this line
   return answer;
 }
 
 console.log(chainToSwitch(7));
+//80
+function isLess(a, b) {
+  return a < b;
+}
+
+isLess(10, 15);
