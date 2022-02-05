@@ -29,5 +29,5 @@ const myAdverb = "quickly";
 const wordBlanks = myNoun + " " + myAdjective + " " + myVerb + " " + myAdverb;
 console.log(wordBlanks)
 
-const myArray = ["first",2];
+const myArray = [[1,2,'a'],[1]];
 console.log(myArray);
