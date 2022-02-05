@@ -28,3 +28,6 @@ const myVerb = "ran";
 const myAdverb = "quickly";
 const wordBlanks = myNoun + " " + myAdjective + " " + myVerb + " " + myAdverb;
 console.log(wordBlanks)
+
+const myArray = ["first",2];
+console.log(myArray);
