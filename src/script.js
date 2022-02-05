@@ -11,3 +11,5 @@ a=7;
 var b;
 b=a;
 var a = 9;
+var myFirstName = "Akanksha";
+var myLastName = "Dixit";
