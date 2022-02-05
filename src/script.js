@@ -19,3 +19,5 @@ console.log(myVar);
 let myVar2 = 11;
 myVar2--;
 console.log(myVar2);
+var myDecimal = 5.5;
+console.log(myDecimal);
