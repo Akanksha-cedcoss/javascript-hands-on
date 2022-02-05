@@ -37,3 +37,8 @@ const myList = [
   ["maggi", 14],
 ];
 console.log(myList);
+
+function reusableFunction() {
+  console.log("Hi World");
+}
+reusableFunction();
