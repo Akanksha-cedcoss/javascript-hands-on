@@ -16,7 +16,8 @@ let firstLetterOfLastName = "";
 const lastName = "Lovelace";
 
 firstLetterOfLastName = lastName[0];
-
+const lastLetterOfLastName = lastName[lastName.length - 1];
 const thirdLetterOfLastName = lastName[2];
 console.log(firstLetterOfLastName);
 console.log(thirdLetterOfLastName);
+console.log(lastLetterOfLastName)
