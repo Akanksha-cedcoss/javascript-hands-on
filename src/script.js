@@ -20,9 +20,7 @@ function myLocalScope() {
   }
   myLocalScope();
   
-  // Run and check the console
-  // myVar is not defined outside of myLocalScope
-  console.log('outside myLocalScope', myVar);
+
 
 function fun2() {
   var output = "";
@@ -34,23 +32,17 @@ function fun2() {
   }
   console.log(output);
 }
+// Setup
+const outerWear = "T-Shirt";
 
-let firstLetterOfLastName = "";
-const lastName = "Lovelace";
+function myOutfit() {
+  // Only change code below this line
+const outerWear='sweater';
+  // Only change code above this line
+  return outerWear;
+}
 
-firstLetterOfLastName = lastName[0];
-const lastLetterOfLastName = lastName[lastName.length - 1];
-const thirdLetterOfLastName = lastName[2];
-const secondToLastLetterOfLastName = lastName[lastName.length - 2];
-
-console.log(secondToLastLetterOfLastName);
-
-const myNoun = "dog";
-const myAdjective = "big";
-const myVerb = "ran";
-const myAdverb = "quickly";
-const wordBlanks = myNoun + " " + myAdjective + " " + myVerb + " " + myAdverb;
-console.log(wordBlanks);
+myOutfit();
 
 const myList = [
   ["Chocolate Bar", 15],
