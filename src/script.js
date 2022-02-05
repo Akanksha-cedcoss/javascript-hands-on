@@ -6,12 +6,12 @@ multiline
 comment
 */
 
-let a = 5;
-let b = 12;
-let c = 4.6;
-a *= 5;
-b *=3;
-c *= 10;
+let a = 48;
+let b = 108;
+let c = 33;
+a  /= 12;
+b  /= 4;
+c  /= 11;
 console.log(a);
 console.log(b);
 console.log(c);
