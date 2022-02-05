@@ -47,7 +47,6 @@ const myList = [
   ["coffee", 3],
   ["maggi", 14],
 ];
-console.log(myList);
 
 function reusableFunction() {
   console.log("Hi World");
@@ -77,3 +76,13 @@ function addFive() {
 
 addThree();
 addFive();
+// Setup
+let processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+
+// Only change code below this line
+processed = processArg(7);
+console.log(processed);
