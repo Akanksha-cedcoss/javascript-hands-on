@@ -124,10 +124,19 @@ function testStrict(val) {
   return "Not Equal";
 }
 function compareEquality(a, b) {
-    if (a === b) { // Change this line
-      return "Equal";
-    }
+  if (a === b) {
+    // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+//63
+function testNotEqual(val) {
+  if (val != 99) {
+    // Change this line
     return "Not Equal";
   }
-  
-  console.log(compareEquality(10, "10"));
+  return "Equal";
+}
+
+console.log(testNotEqual(10));
