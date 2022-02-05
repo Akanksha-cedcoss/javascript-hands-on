@@ -140,10 +140,24 @@ function testNotEqual(val) {
 }
 //64
 function testStrictNotEqual(val) {
-    if (val!==17) { 
-      return "Not Equal";
-    }
-    return "Equal";
+  if (val !== 17) {
+    return "Not Equal";
   }
-  
- console.log(testStrictNotEqual(10));
+  return "Equal";
+}
+//65
+function testGreaterThan(val) {
+  if (val > 100) {
+    // Change this line
+    return "Over 100";
+  }
+
+  if (val > 10) {
+    // Change this line
+    return "Over 10";
+  }
+
+  return "10 or Under";
+}
+
+console.log(testGreaterThan(10));
