@@ -522,3 +522,5 @@ const myDog = {
   friends: ["freeCodeCamp Campers"],
 };
 myDog["name"] = "Happy Coder";
+//88
+myDog.bark = "woof";
