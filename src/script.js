@@ -524,3 +524,5 @@ const myDog = {
 myDog["name"] = "Happy Coder";
 //88
 myDog.bark = "woof";
+//89
+delete myDog.tails;
