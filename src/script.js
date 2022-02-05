@@ -29,7 +29,11 @@ const myAdverb = "quickly";
 const wordBlanks = myNoun + " " + myAdjective + " " + myVerb + " " + myAdverb;
 console.log(wordBlanks);
 
-const myArray = [["John", 23], ["dog", 3]];
-myArray.shift();
-myArray.unshift(["Paul", 35]);
-console.log(myArray);
+const myList = [
+  ["Chocolate Bar", 15],
+  ["Chocolate", 1],
+  ["C", 5],
+  ["coffee", 3],
+  ["maggi", 14],
+];
+console.log(myList);
