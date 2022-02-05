@@ -5,6 +5,6 @@ a
 multiline
 comment
 */
-let myStr='This is the first sentence.';
-myStr += ' This is the second sentence.';
+const myName = "Akanksha";
+const myStr = "My name is "+myName+" dixit";
 console.log(myStr);
