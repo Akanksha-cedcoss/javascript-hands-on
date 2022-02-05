@@ -83,6 +83,17 @@ function processArg(num) {
   return (num + 3) / 5;
 }
 
-// Only change code below this line
 processed = processArg(7);
-console.log(processed);
+// 57
+function nextInLine(arr, item) {
+  arr.push(item);
+  let i = arr.shift();
+  return i;
+}
+
+const testArr = [1, 2, 3, 4, 5];
+
+// Display code
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
