@@ -30,5 +30,6 @@ const wordBlanks = myNoun + " " + myAdjective + " " + myVerb + " " + myAdverb;
 console.log(wordBlanks);
 
 const myArray = [["John", 23], ["dog", 3]];
-let removedFromMyArray = myArray.shift();
+myArray.shift();
+myArray.unshift(["Paul", 35]);
 console.log(myArray);
