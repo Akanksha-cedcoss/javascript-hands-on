@@ -5,7 +5,9 @@ a
 multiline
 comment
 */
-const someAdjective = "awesome";
-let myStr = "Learning to code is ";
-myStr += someAdjective;
-console.log(myStr);
+
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+lastNameLength = lastName.length;
+console.log(lastNameLength);
