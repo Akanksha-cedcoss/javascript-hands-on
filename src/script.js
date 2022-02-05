@@ -6,11 +6,13 @@ multiline
 comment
 */
 
-var myDecimal = 5.5;
-console.log(myDecimal);
-const product = 2.0 * 2.5;
-console.log(product);
-const quotient = 4.4/ 2.0;
-console.log(quotient);
-const remainder = 12%5;
-console.log(remainder);
+let a = 3;
+let b = 17;
+let c = 12;
+
+a += 12;
+b += 9;
+c += 7;
+console.log(a);
+console.log(b);
+console.log(c);
