@@ -30,5 +30,5 @@ const wordBlanks = myNoun + " " + myAdjective + " " + myVerb + " " + myAdverb;
 console.log(wordBlanks);
 
 const myArray = [["John", 23], ["cat", 2]];
-myArray.push(["dog",3]);
+let removedFromMyArray=myArray.pop(1);
 console.log(myArray);
