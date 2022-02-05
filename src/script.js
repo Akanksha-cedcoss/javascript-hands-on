@@ -526,3 +526,24 @@ myDog["name"] = "Happy Coder";
 myDog.bark = "woof";
 //89
 delete myDog.tails;
+//90
+function phoneticLookup(val) {
+  let result = "";
+
+  // Only change code below this line
+
+  const lookup = {
+    bravo: "Boston",
+    charlie: "Chicago",
+    delta: "Denver",
+    echo: "Easy",
+    foxtrot: "Frank",
+    alpha: "Adams",
+  };
+  result = lookup[val];
+
+  // Only change code above this line
+  return result;
+}
+
+phoneticLookup("charlie");
