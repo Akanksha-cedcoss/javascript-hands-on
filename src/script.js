@@ -7,7 +7,8 @@ comment
 */
 const sum = 10 + 10;
 console.log(sum);
-
+const difference = 45 - 33;
+console.log(difference);
 studlyCapVar = 10;
 properCamelCase = "A String";
 titleCaseOver = 9000;
