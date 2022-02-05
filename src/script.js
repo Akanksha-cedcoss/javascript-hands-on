@@ -109,5 +109,11 @@ function trueOrFalse(wasThatTrue) {
   }
   return "No, that was false";
 }
-console.log(trueOrFalse(true));
-console.log(trueOrFalse(false));
+//60
+function testEqual(val) {
+  if (val == 12) {
+    return "Equal";
+  }
+  return "Not Equal";
+}
+console.log(testEqual(10));
